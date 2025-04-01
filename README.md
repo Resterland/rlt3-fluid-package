@@ -1,2 +1,2 @@
-# rlt3-fluid-package
-ResterLand TYPO3 fluid site package
+# ResterLand TYPO3 fluid site package (rlt3-fluid-package)
+
