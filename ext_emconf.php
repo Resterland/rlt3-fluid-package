@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'rlt3-fluid-package',
+    'title' => 'ResterLand Fluid Site Package',
     'description' => 'ResterLand TYPO3 fluid site package',
     'category' => 'templates',
     'constraints' => [
