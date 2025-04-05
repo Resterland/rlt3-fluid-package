@@ -1,0 +1,5 @@
+name: resterland/rlt3-fluid-package
+label: 'rlt3-fluid-package'
+dependencies:
+  - typo3/fluid-styled-content
+  - typo3/fluid-styled-content-css

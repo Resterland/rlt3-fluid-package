@@ -1,0 +1,23 @@
+{
+    "name": "resterland/rlt3-fluid-package",
+    "type": "typo3-cms-extension",
+    "description": "ResterLand TYPO3 fluid site package",
+    "homepage": "https://resterland.org",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^13.4",
+        "typo3/cms-rte-ckeditor": "^13.4",
+        "typo3/cms-fluid-styled-content": "^13.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resterland\\Rlt3FluidPackage\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "rlt3_fluid_package"
+        }
+    }
+}
