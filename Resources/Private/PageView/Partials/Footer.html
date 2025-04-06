@@ -1,0 +1,12 @@
+<footer>
+    <p>Dieses Website-Beispiel ist CC0 - jeder Teil dieses Codes kann auf jede beliebige Weise wiederverwendet werden.</p>
+    <div>
+
+        <f:link.page pageUid="{site.rootPageId}" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <f:image src="{settings.SitePackage.logo}" alt="{settings.SitePackage.logo-alt}" height="24" class="bi" />
+        </f:link.page>
+        <span>&copy; <f:format.date format="Y">now</f:format.date> {site.configuration.websiteTitle}</span>
+    </div>
+
+    <f:render partial="Navigation/FooterMenu.html" arguments="{_all}"/>
+</footer>
