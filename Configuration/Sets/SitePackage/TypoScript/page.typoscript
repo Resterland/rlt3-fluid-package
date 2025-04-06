@@ -43,7 +43,7 @@ page {
     }
 
     includeCSS {
-        rlt3_fluid_package_layout = EXT:rlt3_fluid_package/Resources/Public/Css/layout.css
+
     }
 
     includeJSLibs {
@@ -59,6 +59,6 @@ page {
     }
 
     includeJSFooter {
-        rlt3_fluid_package_scripts = EXT:rlt3_fluid_package/Resources/Public/JavaScript/main.js
+
     }
 }
