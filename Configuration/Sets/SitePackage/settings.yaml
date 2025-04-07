@@ -24,5 +24,5 @@ config:
   removeDefaultJS: '0'
   admPanel: '1'
   prefixLocalAnchors: 'all'
-  headerComment: 'build by get.typo3.org/sitepackage'
+  headerComment: 'ResterLand WebAtelier sample design number 001, build by get.typo3.org/sitepackage'
   sendCacheHeaders: '1'
