@@ -1,4 +1,32 @@
-<header>
-    <img src="Images/Logos/ResterlandLogo.svg" alt="a simple dove logo">
-    <h1>ResterLand WebAtelier</h1>
+<header role="banner">
+    <f:link.page pageUid="{site.rootPageId}"
+                 class="logo"
+                 tabindex="-1"
+                 title="back to the main page">
+        <f:image src="{settings.SitePackage.logo}" alt="{settings.SitePackage.logo-alt}" />
+        {site.configuration.websiteTitle}
+    </f:link.page>
+<!--    <a-->
+<!--        class="logo"-->
+<!--        tabindex="-1"-->
+<!--        title="back to the main page"-->
+<!--        href="index.html"-->
+<!--    >-->
+<!--        <f:image src="{settings.SitePackage.logo}" alt="{settings.SitePackage.logo-alt}" rel="home" />-->
+<!--    </a>-->
+    <h1 class="site-name">
+        <f:link.page pageUid="{site.rootPageId}"
+                     title="back to the main page">
+            {site.configuration.websiteTitle}
+        </f:link.page>
+        >
+    </h1>
+    <p class="site-description">Design 001</p>
+
+    <!-- Main navigation bar inside header -->
+    <f:render partial="Navigation/Menu" arguments="{_all}"/>
+
+    <!-- A Search form: another common non-linear way to navigate through a site. -->
+    <f:render partial="Navigation/Search" arguments="{_all}"/>
+
 </header>
