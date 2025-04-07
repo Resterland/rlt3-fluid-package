@@ -1,11 +1,42 @@
-<nav>
-    <ul>
-        <f:for each="{mainnavigation}" as="mainnavigationItem">
-            <li class="{f:if(condition: mainnavigationItem.active, then:'active')}">
-                <a href="{mainnavigationItem.link}" target="{mainnavigationItem.target}" title="{mainnavigationItem.title}">
-                    {mainnavigationItem.title}
-                </a>
-            </li>
-        </f:for>
+
+<nav role="navigation" class="main-nav">
+    <!-- Top navigation menu -->
+    <ul class="main-menu">
+        <li class="main-menu-item" role="menuitem">
+            <a aria-current="page">Home</a>
+        </li>
+        <li class="main-menu-item" role="menuitem">
+            <a href="1-subpage.html">Our team</a>
+        </li>
+        <li class="main-menu-item" role="menuitem">
+            <a href="1-subpage.html" role="menuitem">Projects</a>
+        </li>
+        <li class="main-menu-item">
+            <a href="2-contact.html">Contact</a>
+        </li>
+    </ul>
+    <!-- A language menu -->
+    <!-- Language navigation list -->
+    <ul class="lang-menu push-right">
+        <li class="lang-menu-item" lang="de-CH" role="menuitem">
+            <a href="#" title="German Swiss">
+                <bdi>Deutsch</bdi>
+            </a>
+        </li>
+        <li class="lang-menu-item" lang="fr-CH" role="menuitem">
+            <a href="#" title="French Swiss">
+                <bdi>Français</bdi>
+            </a>
+        </li>
+        <li class="lang-menu-item" lang="id" role="menuitem">
+            <a href="#" title="Indonesian">
+                <bdi>Bahasa Indonesia</bdi>
+            </a>
+        </li>
+        <li class="lang-menu-item" lang="ja" role="menuitem">
+            <a href="#" title="Japanese">
+                <bdi>日本語</bdi>
+            </a>
+        </li>
     </ul>
 </nav>
