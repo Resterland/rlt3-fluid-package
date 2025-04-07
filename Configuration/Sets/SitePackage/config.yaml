@@ -1,2 +1,4 @@
 name: resterland/rlt3-fluid-package
 label: 'ResterLand Fluid Site Package'
+dependencies:
+  - typo3/fluid-styled-content
